@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/X-MEN"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotationX="-4"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:text="X-MEN"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="2020"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="439dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="300dp"
+        android:layout_height="0dp"
+        android:text="Directed by James Mangold, Gavin Hood, Brett Ratner"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="484dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
